@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2163BAE150F79A10002CB39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2163BAD150F79A10002CB39 /* UIKit.framework */; };
+		F2163BB0150F79A10002CB39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2163BAF150F79A10002CB39 /* Foundation.framework */; };
+		F2163BB2150F79A10002CB39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2163BB1150F79A10002CB39 /* CoreGraphics.framework */; };
+		F2163BB8150F79A10002CB39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2163BB6150F79A10002CB39 /* InfoPlist.strings */; };
+		F2163BBA150F79A10002CB39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2163BB9150F79A10002CB39 /* main.m */; };
+		F2163BBE150F79A10002CB39 /* RevealHotSpotsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2163BBD150F79A10002CB39 /* RevealHotSpotsAppDelegate.m */; };
+		F2163BC1150F79A10002CB39 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2163BBF150F79A10002CB39 /* MainStoryboard.storyboard */; };
+		F2163BC4150F79A10002CB39 /* RevealHotSpotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2163BA9150F79A10002CB39 /* RevealHotSpots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevealHotSpots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2163BAD150F79A10002CB39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2163BAF150F79A10002CB39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2163BB1150F79A10002CB39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2163BB5150F79A10002CB39 /* RevealHotSpots-Info.plist */ = {isa = PBXFileReference; path = "RevealHotSpots-Info.plist"; sourceTree = "<group>"; };
+		F2163BB7150F79A10002CB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2163BB9150F79A10002CB39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2163BBB150F79A10002CB39 /* RevealHotSpots-Prefix.pch */ = {isa = PBXFileReference; path = "RevealHotSpots-Prefix.pch"; sourceTree = "<group>"; };
+		F2163BBC150F79A10002CB39 /* RevealHotSpotsAppDelegate.h */ = {isa = PBXFileReference; path = RevealHotSpotsAppDelegate.h; sourceTree = "<group>"; };
+		F2163BBD150F79A10002CB39 /* RevealHotSpotsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealHotSpotsAppDelegate.m; sourceTree = "<group>"; };
+		F2163BC0150F79A10002CB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F2163BC2150F79A10002CB39 /* RevealHotSpotsViewController.h */ = {isa = PBXFileReference; path = RevealHotSpotsViewController.h; sourceTree = "<group>"; };
+		F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealHotSpotsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2163BA6150F79A10002CB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2163BAE150F79A10002CB39 /* UIKit.framework in Frameworks */,
+				F2163BB0150F79A10002CB39 /* Foundation.framework in Frameworks */,
+				F2163BB2150F79A10002CB39 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2163B9E150F79A10002CB39 = {
+			isa = PBXGroup;
+			children = (
+				F2163BB3150F79A10002CB39 /* RevealHotSpots */,
+				F2163BAC150F79A10002CB39 /* Frameworks */,
+				F2163BAA150F79A10002CB39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2163BAA150F79A10002CB39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2163BA9150F79A10002CB39 /* RevealHotSpots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2163BAC150F79A10002CB39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2163BAD150F79A10002CB39 /* UIKit.framework */,
+				F2163BAF150F79A10002CB39 /* Foundation.framework */,
+				F2163BB1150F79A10002CB39 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2163BB3150F79A10002CB39 /* RevealHotSpots */ = {
+			isa = PBXGroup;
+			children = (
+				F2163BBC150F79A10002CB39 /* RevealHotSpotsAppDelegate.h */,
+				F2163BBD150F79A10002CB39 /* RevealHotSpotsAppDelegate.m */,
+				F2163BBF150F79A10002CB39 /* MainStoryboard.storyboard */,
+				F2163BC2150F79A10002CB39 /* RevealHotSpotsViewController.h */,
+				F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */,
+				F2163BB4150F79A10002CB39 /* Supporting Files */,
+			);
+			path = RevealHotSpots;
+			sourceTree = "<group>";
+		};
+		F2163BB4150F79A10002CB39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2163BB5150F79A10002CB39 /* RevealHotSpots-Info.plist */,
+				F2163BB6150F79A10002CB39 /* InfoPlist.strings */,
+				F2163BB9150F79A10002CB39 /* main.m */,
+				F2163BBB150F79A10002CB39 /* RevealHotSpots-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2163BA8150F79A10002CB39 /* RevealHotSpots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2163BC7150F79A10002CB39 /* Build configuration list for PBXNativeTarget "RevealHotSpots" */;
+			buildPhases = (
+				F2163BA5150F79A10002CB39 /* Sources */,
+				F2163BA6150F79A10002CB39 /* Frameworks */,
+				F2163BA7150F79A10002CB39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealHotSpots;
+			productName = RevealHotSpots;
+			productReference = F2163BA9150F79A10002CB39 /* RevealHotSpots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2163BA0150F79A10002CB39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = bsuir;
+			};
+			buildConfigurationList = F2163BA3150F79A10002CB39 /* Build configuration list for PBXProject "RevealHotSpots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2163B9E150F79A10002CB39;
+			productRefGroup = F2163BAA150F79A10002CB39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2163BA8150F79A10002CB39 /* RevealHotSpots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2163BA7150F79A10002CB39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2163BB8150F79A10002CB39 /* InfoPlist.strings in Resources */,
+				F2163BC1150F79A10002CB39 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2163BA5150F79A10002CB39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2163BBA150F79A10002CB39 /* main.m in Sources */,
+				F2163BBE150F79A10002CB39 /* RevealHotSpotsAppDelegate.m in Sources */,
+				F2163BC4150F79A10002CB39 /* RevealHotSpotsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2163BB6150F79A10002CB39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2163BB7150F79A10002CB39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2163BBF150F79A10002CB39 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2163BC0150F79A10002CB39 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2163BC5150F79A10002CB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2163BC6150F79A10002CB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2163BC8150F79A10002CB39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealHotSpots/RevealHotSpots-Prefix.pch";
+				INFOPLIST_FILE = "RevealHotSpots/RevealHotSpots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2163BC9150F79A10002CB39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealHotSpots/RevealHotSpots-Prefix.pch";
+				INFOPLIST_FILE = "RevealHotSpots/RevealHotSpots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2163BA3150F79A10002CB39 /* Build configuration list for PBXProject "RevealHotSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2163BC5150F79A10002CB39 /* Debug */,
+				F2163BC6150F79A10002CB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2163BC7150F79A10002CB39 /* Build configuration list for PBXNativeTarget "RevealHotSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2163BC8150F79A10002CB39 /* Debug */,
+				F2163BC9150F79A10002CB39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2163BA0150F79A10002CB39 /* Project object */;
+}
