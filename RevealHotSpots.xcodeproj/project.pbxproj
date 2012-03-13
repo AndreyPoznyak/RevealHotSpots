@@ -22,14 +22,14 @@
 		F2163BAD150F79A10002CB39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2163BAF150F79A10002CB39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2163BB1150F79A10002CB39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F2163BB5150F79A10002CB39 /* RevealHotSpots-Info.plist */ = {isa = PBXFileReference; path = "RevealHotSpots-Info.plist"; sourceTree = "<group>"; };
+		F2163BB5150F79A10002CB39 /* RevealHotSpots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RevealHotSpots-Info.plist"; sourceTree = "<group>"; };
 		F2163BB7150F79A10002CB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2163BB9150F79A10002CB39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2163BBB150F79A10002CB39 /* RevealHotSpots-Prefix.pch */ = {isa = PBXFileReference; path = "RevealHotSpots-Prefix.pch"; sourceTree = "<group>"; };
-		F2163BBC150F79A10002CB39 /* RevealHotSpotsAppDelegate.h */ = {isa = PBXFileReference; path = RevealHotSpotsAppDelegate.h; sourceTree = "<group>"; };
+		F2163BBB150F79A10002CB39 /* RevealHotSpots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevealHotSpots-Prefix.pch"; sourceTree = "<group>"; };
+		F2163BBC150F79A10002CB39 /* RevealHotSpotsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevealHotSpotsAppDelegate.h; sourceTree = "<group>"; };
 		F2163BBD150F79A10002CB39 /* RevealHotSpotsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealHotSpotsAppDelegate.m; sourceTree = "<group>"; };
 		F2163BC0150F79A10002CB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F2163BC2150F79A10002CB39 /* RevealHotSpotsViewController.h */ = {isa = PBXFileReference; path = RevealHotSpotsViewController.h; sourceTree = "<group>"; };
+		F2163BC2150F79A10002CB39 /* RevealHotSpotsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevealHotSpotsViewController.h; sourceTree = "<group>"; };
 		F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealHotSpotsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
