@@ -15,6 +15,8 @@
 		F2163BBE150F79A10002CB39 /* RevealHotSpotsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2163BBD150F79A10002CB39 /* RevealHotSpotsAppDelegate.m */; };
 		F2163BC1150F79A10002CB39 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2163BBF150F79A10002CB39 /* MainStoryboard.storyboard */; };
 		F2163BC4150F79A10002CB39 /* RevealHotSpotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */; };
+		F25D3F0A150FE55C00D7FE52 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D3F07150FE55C00D7FE52 /* FaceView.m */; };
+		F25D3F0B150FE55C00D7FE52 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D3F09150FE55C00D7FE52 /* HappinessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		F2163BC0150F79A10002CB39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F2163BC2150F79A10002CB39 /* RevealHotSpotsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevealHotSpotsViewController.h; sourceTree = "<group>"; };
 		F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevealHotSpotsViewController.m; sourceTree = "<group>"; };
+		F25D3F06150FE55C00D7FE52 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		F25D3F07150FE55C00D7FE52 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+		F25D3F08150FE55C00D7FE52 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
+		F25D3F09150FE55C00D7FE52 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				F2163BBD150F79A10002CB39 /* RevealHotSpotsAppDelegate.m */,
 				F2163BBF150F79A10002CB39 /* MainStoryboard.storyboard */,
 				F2163BC2150F79A10002CB39 /* RevealHotSpotsViewController.h */,
+				F25D3F06150FE55C00D7FE52 /* FaceView.h */,
+				F25D3F07150FE55C00D7FE52 /* FaceView.m */,
+				F25D3F08150FE55C00D7FE52 /* HappinessViewController.h */,
+				F25D3F09150FE55C00D7FE52 /* HappinessViewController.m */,
 				F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */,
 				F2163BB4150F79A10002CB39 /* Supporting Files */,
 			);
@@ -164,6 +174,8 @@
 				F2163BBA150F79A10002CB39 /* main.m in Sources */,
 				F2163BBE150F79A10002CB39 /* RevealHotSpotsAppDelegate.m in Sources */,
 				F2163BC4150F79A10002CB39 /* RevealHotSpotsViewController.m in Sources */,
+				F25D3F0A150FE55C00D7FE52 /* FaceView.m in Sources */,
+				F25D3F0B150FE55C00D7FE52 /* HappinessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				F2163BC9150F79A10002CB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
