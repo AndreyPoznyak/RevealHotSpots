@@ -17,7 +17,7 @@
                                 <rect key="frame" x="20" y="90" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Do something">
+                                <state key="normal" title="Available HotSpots">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,23 +25,28 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doSmth" destination="2" eventType="touchUpInside" id="2MP-bd-5Yh"/>
+                                    <segue destination="AYO-DL-rjf" kind="push" identifier="Show List" id="36W-E0-gy8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Maybe i will create some menu here" lineBreakMode="tailTruncation" minimumFontSize="10" id="jBu-99-JMe">
-                                <rect key="frame" x="20" y="52" width="280" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XIe-ek-Osp">
+                                <rect key="frame" x="20" y="135" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="HotSpots on map">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g1Q-dm-8WT" kind="push" identifier="Show Smile" id="d4k-9x-qJS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Start" id="j1g-Th-klw"/>
-                    <connections>
-                        <segue destination="g1Q-dm-8WT" kind="push" identifier="ShowSmile" id="2y3-t1-cmM"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Menu" id="j1g-Th-klw"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="15" y="-3"/>
@@ -70,6 +75,35 @@
             </objects>
             <point key="canvasLocation" x="531" y="-3"/>
         </scene>
+        <scene sceneID="uG0-2J-4z6">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iQQ-e7-fBC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="AYO-DL-rjf" customClass="ListTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="GDZ-Ua-42g">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Hot Spot Description" id="1hC-Lp-AMC">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="AYO-DL-rjf" id="OCF-pg-w5C"/>
+                            <outlet property="delegate" destination="AYO-DL-rjf" id="vkZ-t9-iUx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="i2e-vf-V4k"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="535" y="568"/>
+        </scene>
         <scene sceneID="kiF-Rn-YbP">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvM-r0-JMG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -88,23 +122,6 @@
             <point key="canvasLocation" x="-511" y="-3"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="FaceView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FaceView.h"/>
-            <relationships>
-                <relationship kind="outlet" name="dataSource"/>
-            </relationships>
-        </class>
-        <class className="HappinessViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HappinessViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="faceView" candidateClass="FaceView"/>
-            </relationships>
-        </class>
-        <class className="RevealHotSpotsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RevealHotSpotsViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

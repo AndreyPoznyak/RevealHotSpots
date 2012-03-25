@@ -17,6 +17,9 @@
 		F2163BC4150F79A10002CB39 /* RevealHotSpotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2163BC3150F79A10002CB39 /* RevealHotSpotsViewController.m */; };
 		F25D3F0A150FE55C00D7FE52 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D3F07150FE55C00D7FE52 /* FaceView.m */; };
 		F25D3F0B150FE55C00D7FE52 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D3F09150FE55C00D7FE52 /* HappinessViewController.m */; };
+		F2A4FD5E151DC41F00F2C0E8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A4FD5D151DC41F00F2C0E8 /* CoreLocation.framework */; };
+		F2A4FD60151DC44A00F2C0E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A4FD5F151DC44A00F2C0E8 /* MapKit.framework */; };
+		F2A4FD6E151F281400F2C0E8 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A4FD6D151F281400F2C0E8 /* ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		F25D3F07150FE55C00D7FE52 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		F25D3F08150FE55C00D7FE52 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		F25D3F09150FE55C00D7FE52 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		F2A4FD5D151DC41F00F2C0E8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F2A4FD5F151DC44A00F2C0E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F2A4FD6C151F281300F2C0E8 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		F2A4FD6D151F281400F2C0E8 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A4FD60151DC44A00F2C0E8 /* MapKit.framework in Frameworks */,
+				F2A4FD5E151DC41F00F2C0E8 /* CoreLocation.framework in Frameworks */,
 				F2163BAE150F79A10002CB39 /* UIKit.framework in Frameworks */,
 				F2163BB0150F79A10002CB39 /* Foundation.framework in Frameworks */,
 				F2163BB2150F79A10002CB39 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,8 @@
 		F2163BAC150F79A10002CB39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2A4FD5D151DC41F00F2C0E8 /* CoreLocation.framework */,
+				F2A4FD5F151DC44A00F2C0E8 /* MapKit.framework */,
 				F2163BAD150F79A10002CB39 /* UIKit.framework */,
 				F2163BAF150F79A10002CB39 /* Foundation.framework */,
 				F2163BB1150F79A10002CB39 /* CoreGraphics.framework */,
@@ -83,6 +94,8 @@
 		F2163BB3150F79A10002CB39 /* RevealHotSpots */ = {
 			isa = PBXGroup;
 			children = (
+				F2A4FD6C151F281300F2C0E8 /* ListTableViewController.h */,
+				F2A4FD6D151F281400F2C0E8 /* ListTableViewController.m */,
 				F2163BBC150F79A10002CB39 /* RevealHotSpotsAppDelegate.h */,
 				F2163BBD150F79A10002CB39 /* RevealHotSpotsAppDelegate.m */,
 				F2163BBF150F79A10002CB39 /* MainStoryboard.storyboard */,
@@ -176,6 +189,7 @@
 				F2163BC4150F79A10002CB39 /* RevealHotSpotsViewController.m in Sources */,
 				F25D3F0A150FE55C00D7FE52 /* FaceView.m in Sources */,
 				F25D3F0B150FE55C00D7FE52 /* HappinessViewController.m in Sources */,
+				F2A4FD6E151F281400F2C0E8 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

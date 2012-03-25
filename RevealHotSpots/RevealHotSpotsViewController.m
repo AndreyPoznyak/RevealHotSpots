@@ -8,19 +8,20 @@
 
 #import "RevealHotSpotsViewController.h"
 #import "HappinessViewController.h"
+#import "ListTableViewController.h"
 
 @implementation RevealHotSpotsViewController
 
-- (IBAction)doSmth
-{
-    [self performSegueWithIdentifier:@"ShowSmile" sender:self];
-}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if([segue.identifier isEqualToString:@"ShowSmile"])
+    if([segue.identifier isEqualToString:@"Show Smile"])
     {
         [segue.destinationViewController setHappiness:100];
+    } else if([segue.identifier isEqualToString:@"Show List"])
+    {
+        NSArray *temp = [NSArray arrayWithObjects:@"1", @"2", @"3", nil];
+        [segue.destinationViewController setListOfHotSpots:temp];
     }
 }
 
